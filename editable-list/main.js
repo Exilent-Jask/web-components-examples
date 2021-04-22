@@ -1,6 +1,4 @@
-'use strict';
 
-(function() {
   class EditableList extends HTMLElement {
     constructor() {
       // establish prototype chain
@@ -129,4 +127,3 @@
 
   // let the browser know about the custom element
   customElements.define('editable-list', EditableList);
-})();
